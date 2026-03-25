@@ -1,0 +1,13 @@
+{
+  "name": "guaranteed-trade",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx hardhat compile && node scripts/buildArtifacts.js",
+    "simulate": "npx hardhat run scripts/simulateDispute.js --network hardhat"
+  },
+  "devDependencies": {
+    "hardhat": "^2.16.2",
+    "ethers": "^5.7.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.1"
+  }
+}
